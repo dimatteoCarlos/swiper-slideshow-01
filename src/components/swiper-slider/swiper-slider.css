@@ -1,0 +1,48 @@
+/*swiper-slider.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.slider__wrapper {
+  font-family: 'Patrick Hand', cursive;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide__container {
+  /*match to SwiperSlide*/
+  margin-top: 3rem;
+  display: grid;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  width: 19rem;
+  height: 23rem;
+  color: white;
+  border-radius: 1rem;
+
+  border: 10px solid #e38933;
+
+  background: linear-gradient(
+    -45deg,
+    rgba(2, 0, 35, 1) 0%,
+    rgba(1, 1, 120, 0.9) 38%,
+    rgba(22, 22, 246, 0.7) 65%,
+    rgba(8, 8, 8, 0.7) 100%
+  );
+}
+
+.slide__img {
+  padding: 0.6rem;
+  width: 9rem;
+  height: 9rem;
+  justify-self: center;
+  margin-top: 0.6rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: rgba(41, 89, 231, 1);
+}
+.slide__title {
+  font-size: 2rem;
+}
+.slide__info {
+  font-size: 1.5rem;
+}
